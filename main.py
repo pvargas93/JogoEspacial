@@ -8,7 +8,7 @@ import json
 import datetime
 
 # Configuração para compatibilidade no MacOS
-# MacOS
+# MacOS: corrige Bug
 if os.name == "posix":
     root = tk.Tk()
     root.update()
